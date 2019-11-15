@@ -1,0 +1,18 @@
+import processing.net.*;
+Server s;
+Client c;
+String m;
+void setup()
+{
+  s = new Server(this, 12345); // Start a simple server on a port
+}
+void draw() 
+{
+  c = s.available();
+  if (c != null) {
+    m = c.readString();
+    m = m.substring(m.length()-1);
+    println(m);
+    //c.stop();
+  }
+}
