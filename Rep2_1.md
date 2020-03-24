@@ -2,18 +2,20 @@
 ## 컴퓨터공학과 남현지
 
 ```
-void setup(){
+void setup() {
   size(800, 300);
   textSize(128);
 }
-int i, a=1;
-void draw(){
+int i, dir=1, sp=1;
+void draw() {
   fill(255);
-  background(165,102,255);
-  if(keyPressed)
-    a=key-'0';
-  text("andong", i=i+a, 200);
-  if(i>800) i=0;
+  background(0, 0, 255);
+  text("andong", i, 200);
+  if (i>width-128/2*7) dir=-1;
+  if (i<0) dir=1;
+  i = i+dir*sp;
+  if (keyPressed)
+    sp = key - '0';
 }
 ```
 ### 리포트 소감
