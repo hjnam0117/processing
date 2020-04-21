@@ -20,7 +20,7 @@ void draw() { // 반복 실행
 
 ```
 
-### [2. 위아래로 왔다 갔다하는 배너를 만드는 코드](https://cafe.naver.com/graphicscafe)
+### [2. 위아래로 왔다 갔다하는 배너를 만드는 코드](https://cafe.naver.com/graphicscafe/266)
 
 ```
 PFont f; // 한글 나타내기 위해 폰트 f 선언
@@ -77,7 +77,7 @@ void draw() { // 반복 실행
 
 ```
 
-###[4. Processing Tutorials – 나의 도형 만들기(곰돌이)](https://cafe.naver.com/graphicscafe)
+###[4. Processing Tutorials – 나의 도형 만들기(곰돌이)](https://cafe.naver.com/graphicscafe/269)
 
 ```
 void setup() { // 한번 실행
