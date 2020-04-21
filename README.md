@@ -2,7 +2,7 @@
 ## 안동대학교 컴퓨터공학과
 ### 20190703 남현지
 
-### [1. 화면에 원이 위에서 아래로 내려오는 코드](https://cafe.naver.com/graphicscafe)
+### [1. 화면에 원이 위에서 아래로 내려오는 코드](https://cafe.naver.com/graphicscafe/260)
 
 ```
 void setup() { // 한번 실행
